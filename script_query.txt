@@ -1,0 +1,3 @@
+python researcher.py --text "Data analyst" --refresh --save_result
+python researcher.py --text "Python" --refresh --save_result
+python researcher.py --text "Machine learning" --refresh --save_result --update

@@ -164,7 +164,7 @@ class Settings:
 
 if __name__ == "__main__":
     settings = Settings(
-        config_path="../settings.json", input_args=("--num_workers", "5", "--refresh", "--text", "Data Scientist"),
+        config_path="../settings.json.old", input_args=("--num_workers", "5", "--refresh", "--text", "Data Scientist"),
     )
 
     print(settings)

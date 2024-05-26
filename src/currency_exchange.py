@@ -71,7 +71,7 @@ class Exchanger:
 
 
 if __name__ == "__main__":
-    _exchanger = Exchanger("../settings.json")
+    _exchanger = Exchanger("../settings.json.old")
     _default = {"RUB": None, "USD": None, "EUR": None, "UAH": None}
     _exchanger.update_exchange_rates(_default)
     _exchanger.save_rates(_default)

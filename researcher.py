@@ -52,7 +52,7 @@ from src.parser import Settings
 from src.predictor import Predictor
 
 CACHE_DIR = os.path.join(os.path.abspath(os.path.dirname(__file__)), "cache")
-SETTINGS_PATH = "settings.json"
+SETTINGS_PATH = "settings.json.old"
 
 
 class ResearcherHH:
